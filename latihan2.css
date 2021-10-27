@@ -1,0 +1,174 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    /* z-index: -1; */
+}
+a{
+    text-decoration: none;
+}
+
+/* Content and main styles*/
+.odd {
+    margin-left: 150px;
+    height: auto;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Home Styles */
+.home {
+    padding: 24px 12px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: 0px 0px 12px 12px grey;
+    border-bottom: 2px solid black;
+}
+.home h1 {
+    font-size: 6vw;
+    margin-bottom: 4px;
+}
+.home h3{
+    margin-top: 4px;
+    font-size: 1.5vw;
+}
+.main-image {
+    margin: auto;
+    align-self: center;
+}
+
+/* About Styles */
+.about {
+    text-align: center;
+    padding: 24px 12px;
+    background-color: #fff;
+    color: black;
+}
+
+/* Text Hover effect */
+h1{
+    font-size: 2vw;
+}
+h1 b{
+    position: relative;
+}
+h1 b::after{
+    content: '';
+    position: absolute;
+    right:0;
+    bottom:0;
+    width: 0%;
+    height: 2px;
+    background-color: currentColor;
+    transition: 0.5s ease-in-out;
+
+} 
+h1 b:hover::after{
+    right: auto;
+    left:0;
+    width: 100%;
+}
+
+.about-container {
+    padding: 20px 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 75%;
+    height: auto;
+    transition: 1s;
+    z-index: 1;
+}
+.about-container:hover {
+    box-shadow: 0px 15px 10px rgba(0,0,0,0.45);
+}
+.about-container p{
+    font-size: 1.4vw;
+    text-align:center;
+}
+
+/* Education Styles */
+.pendidikan{
+    margin:0px;
+    padding: 20px 16px;
+    margin: 24px 12px;
+    border-radius: 6px;
+    border: 2px solid black;
+    width: auto;
+    display: flex;
+    flex-flow: row; 
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    position: relative;
+    z-index: 1;
+}
+.pendidikan2{
+    margin:0px;
+    padding: 20px 16px;
+    margin: 24px 12px;
+    border-radius: 6px;
+    border: 2px solid black;
+    width: auto;
+    display: flex;
+    flex-flow: row; 
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    position: relative;
+    z-index: 1;
+}
+
+/* Skil; Styles */
+.skill{
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    padding: 1% 0%;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 75%;
+    height: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.cert-row{
+    margin: 2% 5%;
+    flex: 1 0 auto;
+    height: 40%;
+    min-height: 100px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 6px 0px;
+    transition: 1s;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+.cert-row:hover{
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.45);
+}
+
+.cert-content{
+    width: 75%;
+    height: auto;
+    flex: 0 1 auto;
+    padding: 6px 12px;
+}
+
+.footer{
+    padding: 1em 1.5em;
+    background: #A7B8BF;
+    color: white;
+    text-align: right;
+}
