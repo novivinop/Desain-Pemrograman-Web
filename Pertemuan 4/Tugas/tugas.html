@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ms Glow Corp</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Judul -->
+    <div class="msglow">
+        <img src="img/msglow.png" alt="" class="img-msglow">
+        <H1>MS GLOW </H1>
+    </div>
+
+    <!-- Produk -->
+    <div class="produk">
+        <div id="acne" class="card">
+            <img src="img/acneseries.png" alt="" class="img-acneseries">
+            <h2>Acne Series</h2>
+            <p id="a">Cocok untuk wajah yang beruntusan, jerawat batu, bopeng dan bekas jerawat.</p>
+        </div>
+        <div id="whitening" class="card">
+            <img src="img/whiteningseries.png" alt="" class="img-whiteningseries">
+            <h2>Whitening Series</h2>
+            <p id="w">Cocok untuk wajah yang normal, kusam, dan pori pori besar.</p>
+        </div>
+        <div id="luminous" class="card">
+            <img src="img/luminousseries.png" alt="" class="img-luminousseries">
+            <h2>Luminous Series</h2>
+            <p id="l">Cocok untuk yang memiliki masalah wajah kusam, dan hyperpigmentasi pada kulit.</p>
+        </div>
+        <div id="ultimate" class="card">
+            <img src="img/ultimateseries.png" alt="" class="img-ultimateseries">
+            <h2>Ultimate Series</h2>
+            <p id="u">Cocok untuk wajah yang berflek hitam, keriput dan kusam.</p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+        $("#gryffindor").on("click", function () {
+        $("#a").toggle();
+      });
+
+      $("#ravenclaw").on("click", function () {
+        $("#w").toggle();
+      });
+
+      $("#hufflepuff").on("click", function () {
+        $("#i").toggle();
+      });
+
+      $("#slyntherin").on("click", function () {
+        $("#u").toggle();
+      });
+    </script>
+</body>
+</html>

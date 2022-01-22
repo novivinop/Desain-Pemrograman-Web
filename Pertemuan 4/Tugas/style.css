@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #202124;
+}
+
+.img-msglow {
+    width: 15%;
+}
+
+.msglow {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.msglow h1 {
+    color: #ffd700;
+}
+
+.produk {
+    display: flex;
+    justify-content: center;
+    margin: 30px 150px;
+}
+
+.card {
+    text-align: center;
+    margin:  30px;
+	background-color:#876445;
+	border-radius: 40px;
+    padding: 40px;
+}
+
+.card h2,p {
+    color: #ffd700;
+}
+
+/* Card Acne */
+#acneseries {
+    background-color:#c400009a;
+	border-radius: 80px;
+    padding: 80px;
+}
+
+.img-acneseries {
+    width: 90%;
+}
+
+/* Card Whitening */
+#whiteningseries {
+    background-color:#c400009a;
+	border-radius: 80px;
+    padding: 80px; 
+}
+
+.img-whiteningseries {
+    width: 73%;
+}
+
+/* Card Luminous */
+#luminousseries {
+	background-color:#c400009a;
+	border-radius: 80px;
+    padding: 80px;
+}
+.img-luminousseries {
+    width: 102%;
+}
+
+/* Card Ultimate */
+#ultimateseries {
+    background-color:#c400009a;
+	border-radius: 80px;
+    padding: 80px;
+}
+
+.img-ultimateseries {
+    width:95%;
+}
